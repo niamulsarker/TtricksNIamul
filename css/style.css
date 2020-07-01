@@ -1,0 +1,28 @@
+*{margin:0;
+ padding:0}
+body {background:#333;
+     color:#fff;
+   }
+.navbar {background:#292b2cab;
+        border-bottom:3px solid #008ed6}
+		
+#home-section {background:url(analog-camera-behind-silver-computer-laptop-3774042.jpg) no-repeat center;
+               background-size:cover;
+			   min-height:650px; 
+               background-attachment:fixed;			   
+			   }		
+			   
+.dark-overlay { background:rgba(0,0,0,.7);
+               min-height:650px;
+			   }	
+.home-inner {padding-top:100px;
+            padding-bottom:50px;}
+
+#Explore_main_section {background:#fff;
+                      color:black;}			
+			
+.Explore_img img {height:350px}			
+
+@media (max-width: 768px){
+	#home-section h1 {font-size:40px}
+}
